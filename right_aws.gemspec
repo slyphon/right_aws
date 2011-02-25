@@ -25,9 +25,9 @@ require 'rubygems'
 require File.expand_path(File.join(File.dirname(__FILE__), "lib", "awsbase", "version"))
 
 Gem::Specification.new do |spec|
-  spec.name = 'right_aws'
+  spec.name = 'mb-right_aws'
   spec.rubyforge_project = 'rightaws'
-  spec.version = RightAws::VERSION::STRING
+  spec.version = "#{RightAws::VERSION::STRING}.rc.0"
   spec.authors = ['RightScale, Inc.']
   spec.email = 'support@rightscale.com'
   spec.summary = 'Interface classes for the Amazon EC2, SQS, and S3 Web Services'
